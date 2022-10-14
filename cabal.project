@@ -1,1 +1,8 @@
-packages: */*.cabal
+packages:
+  gitlib
+  gitlib-cmdline
+  -- blocked on git not supporting MonadFail
+  -- gitlib-hit
+  gitlib-libgit2
+  gitlib-test
+  hlibgit2
